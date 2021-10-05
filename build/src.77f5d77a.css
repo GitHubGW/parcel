@@ -1,0 +1,34 @@
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#root .container {
+  text-align: center;
+}
+#root .container .title {
+  color: crimson;
+  font-size: 45px;
+}
+#root .container .title:hover {
+  color: orange;
+}
+#root .container .subtitle {
+  color: lightcoral;
+  font-size: 18px;
+}
+#root .container .subtitle:hover {
+  color: orange;
+}
+#root .container .content:-webkit-full-screen {
+  color: red;
+}
+#root .container .content:-ms-fullscreen {
+  color: red;
+}
+#root .container .content:fullscreen {
+  color: red;
+}
+
+/*# sourceMappingURL=src.77f5d77a.css.map */
