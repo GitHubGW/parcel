@@ -1,4 +1,4 @@
-# Parcel-Course
+# Parcel
 
 ## 🔗 Demo
 
@@ -6,13 +6,11 @@
 
 ## 🔥 Stack
 
-### Front-end
-
-## ✅ Packages
+## 📦 Transform
 
 - [x] React
 - [x] ES6 with Babel
-- [x] SASS(SCSS) to CSS
+- [x] SASS(SCSS)
 - [x] CSS Module
 - [x] Typography.js
 - [x] Build for Production
