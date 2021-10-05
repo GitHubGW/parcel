@@ -1,0 +1,30 @@
+#root{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  .container{
+    text-align: center;
+  
+    .title{
+      color: crimson;
+      font-size:45px;
+      &:hover{
+        color: orange;
+      }
+    }
+  
+    .subtitle{
+      color: lightcoral;
+      font-size:18px;
+      &:hover{
+        color: orange;
+      }
+    }
+  
+    .content:fullscreen{
+      color: red;
+    }
+  }
+}
