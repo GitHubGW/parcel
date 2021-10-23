@@ -13,6 +13,7 @@ yarn global add parcel-bundler
 
 #### package.json scripts
 
+- 아래 명령어들을 package.json에 scripts부분에 추가해서 실행할 수 있다.
 - 터미널에 parcel index.html을 실행해서 parcel이 index.html을 컴파일 하도록 할 수 있다.
 - parcel은 기본적으로 Hot reloading(핫 리로딩)을 가지고 있어 파일이 변경되면 자동으로 코드를 수정해서 반영한다.
 
