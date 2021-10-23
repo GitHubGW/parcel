@@ -1,16 +1,27 @@
 ## Parcel
 
-- Parcel을 이용해서 scss, js, ts, json, image 등 다양한 파일들을 변환해주는 웹 어플리케이션 번들러이다.
+- Parcel은 scss, js, ts, json, image 등 다양한 파일들을 변환해주는 웹 어플리케이션 번들러이다.
 - 웹 어플리케이션 번들러에는 대표적으로 Webpack, Rollup, Parcel등이 있다.
+- https://ko.parceljs.org/getting_started.html
+
+#### Parcel 설치
+
+```javascript
+npm install -g parcel-bundler
+yarn global add parcel-bundler
+```
 
 #### package.json scripts
 
 - 터미널에 parcel index.html을 실행해서 parcel이 index.html을 컴파일 하도록 할 수 있다.
-- parcel은 기본적으로 Auto Reloading(자동 리로딩)기능을 가지고 있어서 파일이 변경되면 실시간으로 반영된다.
+- parcel은 기본적으로 Hot reloading(핫 리로딩)을 가지고 있어 파일이 변경되면 자동으로 코드를 수정해서 반영한다.
 
-```
+```javascript
+// parcel을 이용해서 index.html을 변환한다.
 parcel index.html
 parcel index.html --open
+
+// rimraf 모듈을 이용해서 dist폴더를 삭제하고 다시 생성 후, parcel을 이용해서 index.html을 변환한다.
 rimraf dist && parcel index.html
 parcel build --no-minify index.html --public-url ./ --out-dir build
 ```
